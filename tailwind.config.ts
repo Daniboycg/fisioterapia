@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          DEFAULT: "#06B6D4", // Cyan 500
+          light: "#22D3EE",   // Cyan 400
+        },
+        secondary: {
+          DEFAULT: "#1F2937", // Gris oscuro para texto
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
